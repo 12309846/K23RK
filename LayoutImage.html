@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doc With Image Layout</title>
+        <style>
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 10px;
+            }
+            .gallery img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/300x200/?stars" alt="image 1">
+            <img src="https://source.unsplash.com/300x200/?nature" alt="image 2">
+            <img src="https://source.unsplash.com/300x200/?flowers" alt="image 3">
+            <img src="https://source.unsplash.com/300x200/?forest" alt="image 4">
+            <img src="https://source.unsplash.com/300x200/?mountains" alt="image 5">
+            <img src="https://source.unsplash.com/300x200/?ocean" alt="image 6">
+        </div>
+    </body>
+</html>
